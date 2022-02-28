@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e43c78f-5d2f-4534-a121-ea67a6dd66dc" name="Changes" comment="Remove back link on home page">
+    <list default="true" id="9e43c78f-5d2f-4534-a121-ea67a6dd66dc" name="Changes" comment="Add correct service name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +203,7 @@
       <updated>1645798851735</updated>
       <workItem from="1645798857040" duration="2044000" />
       <workItem from="1645802144375" duration="1589000" />
-      <workItem from="1646030518894" duration="898000" />
+      <workItem from="1646030518894" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="Register new player">
       <created>1645802584749</created>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646031445559</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add correct service name">
+      <created>1646031511025</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646031511025</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +246,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Register new player" />
     <MESSAGE value="Remove back link on home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove back link on home page" />
+    <MESSAGE value="Add correct service name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add correct service name" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rock_paper_scissors@New_player_Submitting_the_form_for_registering_a_new_player.rcov" NAME="New player Submitting the form for registering a new player Coverage Results" MODIFIED="1645799047128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rock-paper-scissors" />
