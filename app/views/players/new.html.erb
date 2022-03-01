@@ -1,0 +1,7 @@
+<h1 class="govuk-heading-xl">Sign Up for Rock Paper Scissors!</h1>
+
+<%= form_for @player, builder: GOVUKDesignSystemFormBuilder::FormBuilder do |f|  %>
+<%= f.govuk_text_field :name, label: { text: 'Enter Your Name' } %>
+  <%= f.govuk_submit 'Submit' %>
+<% end %>
+
