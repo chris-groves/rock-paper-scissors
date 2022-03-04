@@ -18,6 +18,6 @@ RSpec.feature "New player", :type => :feature do
 
     click_on"Submit"
 
-    expect(page).to have_text("Welcome to Rock Paper Scissors!")
+    expect(page).to have_text("You have signed up!")
   end
 end
