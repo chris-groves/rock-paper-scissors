@@ -1,1 +1,5 @@
 <h1 class="govuk-heading-xl">Choose your weapon!</h1>
+
+<%= form_for @result, builder: GOVUKDesignSystemFormBuilder::FormBuilder do |f| %>
+  <%= f.govuk_collection_radio_buttons :new_department_id, departments, :id, :name, legend: { text: 'Which weapon would you like to use?' }, hint: { text: 'Choose one option' } %>
+<% end %>

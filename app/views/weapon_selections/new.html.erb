@@ -1,0 +1,6 @@
+<h1 class="govuk-heading-xl">Choose your weapon!</h1>
+
+<%= form_for @weapon_selection, builder: GOVUKDesignSystemFormBuilder::FormBuilder do |f|  %>
+  <%= f.govuk_text_field :weapon, label: { text: 'Weapon' }, hint: { text: 'Choose Rock, Paper or Scissors' }  %>
+  <%= f.govuk_submit 'Submit' %>
+<% end %>
